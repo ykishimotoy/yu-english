@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: auto;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(0, 110, 84, 0.8);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+  
+.header-left img {
+    float: left;
+    width: auto;
+    height: 65px;
+    transition: all 0.2s;
+}
+  
+.header-left img:hover {
+    height: 68px;
+}
+  
+.btn {
+    float: right;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    line-height: 35px;
+}
+  
+.btn:hover {
+    background-color: #38b48b;
+}
+
+.top-wrapper {
+    background-image: url(img/machupichu8.jpg);
+    background-size: cover;
+    height: 710px;
+    margin-top: 65px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.top-wrapper h1 {
+    font-size: 100px;
+    padding: 0 0 0 30px;
+    margin: 0;
+    color: white;
+    text-shadow: 4px 4px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 0px 1px 0 black, 0-1px 0 black, -1px 0 0 black, 1px 0 0 black;
+}
+
+.top-wrapper p {
+    display: none;
+    color: white;
+    text-shadow: 3px 3px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 0px 1px 0 black, 0-1px 0 black, -1px 0 0 black, 1px 0 0 black;
+    font-size: 30px;
+    padding: 0 0 0 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.catchcopy {
+    padding-top: 80px;
+}
+
+.middle-wrapper {
+    height: auto;
+    background-color: #efffef;
+}
+
+.middle-wrapper h2 {
+    font-size: 50px;
+    color: black;
+    opacity: 0.8;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.top-middle-wrapper {
+    height: auto;
+    background-color: #efffef;
+    margin: 65px 0 0 0;
+}
+
+.top-middle-wrapper h2 {
+    font-size: 50px;
+    color: black;
+    opacity: 0.8;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.bottom-wrapper {
+    height: auto;
+    background-color: #ccffcc;
+}
+
+.bottom-wrapper h2 {
+    font-size: 50px;
+    color: black;
+    opacity: 0.8;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.btn-bottom {
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    line-height: 35px;
+    margin: 50px auto 30px auto;
+    background-color: rgb(0, 110, 84);
+}
+
+.btn-bottom:hover {
+    background-color: #38b48b;
+}
+
+.groups {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px 0 60px 0;
+}
+
+.group {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.groupicon img {
+    width: 60%;
+    border: 4px solid rgb(0, 110, 84);
+}
+
+.grouptext {
+    margin: 0 auto;
+    text-align: justify;
+    width: 80%;
+
+}
+
+footer {
+    background-color: #006C4F;
+    font-family: "YuGothic";
+    font-size: 18px;
+    width: 100%;
+}
+  
+.footer-img img {
+    height: auto;
+    width: 270px;
+    padding: 5px 0;
+}
+  
+.footer-img {
+    display: inline-block;
+}
+
+.footer-right {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: white;
+}
+
+.header-sp {
+    display: none;
+}
+
+.header-logo {
+    display: none;
+}
+
+.top-wrapper-koushi {
+    background-image: url(img/waynapicchu6.jpg);
+    background-size: cover;
+    height: 710px;
+    margin-top: 65px;
+}
+
+.top-wrapper-koushi h1 {
+    font-size: 100px;
+    padding: 65px 0 0 30px;
+    margin: 0;
+    color: white;
+    text-shadow: 4px 4px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 0px 1px 0 black, 0-1px 0 black, -1px 0 0 black, 1px 0 0 black;
+}
+
+.infobox {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.datetime h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.addtext {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.moneyinfo {
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+.moneyinfo p {
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+}
+
+.otoiawase {
+    margin: 0 auto;
+}
+
+.sponly {
+    display: none;
+}
+
+
+@media (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    .header-sp {
+        display: inline-block;
+        position: fixed;
+        top: 18px;
+        padding-left: 10px;
+        z-index: 10;
+    }
+
+
+    .top-wrapper {
+        background-image: url(img/machupichu-sp.jpg);
+        height: 400px
+    }
+
+    .top-wrapper h1 {
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .catchcopy {
+        padding-top: 115px;
+    }
+
+    .top-wrapper-koushi {
+        background-image: url(img/waynapicchu8.jpg);
+        height: 400px
+    }
+
+    .top-wrapper-koushi h1 {
+        font-size: 40px;
+        padding: 55px 0 0 0;
+        margin: 0;
+    }
+
+    .middle-wrapper h2 {
+        font-size: 32px;
+        padding: 25px 0 15px 0;
+    }
+
+    .top-middle-wrapper h2 {
+        font-size: 32px;
+        padding: 25px 0 15px 0;
+    }
+
+    .bottom-wrapper h2 {
+        font-size: 32px;
+        padding: 25px 0 15px 0;
+    }
+
+    .group {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .footer-img img {
+        margin: 0 auto;
+    }
+
+    .footer-right {
+        display: none;
+    }
+
+    .header-logo {
+        display: inline-block;
+        height: 65px;
+        width: 100%;
+        background-color: rgb(0, 110, 84);
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        text-align: center;
+    }
+
+    .header-logo img {
+        padding: 12px 0 0 0;
+        width: 230px;
+        height: auto;
+    }
+
+    .infobox {
+        width: 100%;
+    }
+
+    .pconly {
+        display: none;
+    }
+
+    .sponly {
+        display: inline-block;
+    }
+
+
+    /*以下、ハンバーガーメニューの項目*/
+
+    #nav-drawer {
+        position: relative;
+    }
+      
+      /*チェックボックス等は非表示に*/
+      .nav-unshown {
+        display: none;
+      }
+      
+      /*アイコンのスペース*/
+      #nav-open {
+        display: inline-block;
+        width: 30px;
+        height: 22px;
+        vertical-align: middle;
+      }
+      
+      /*ハンバーガーアイコンをCSSだけで表現*/
+      #nav-open span, #nav-open span:before, #nav-open span:after {
+        position: absolute;
+        height: 3px;/*線の太さ*/
+        width: 25px;/*長さ*/
+        border-radius: 3px;
+        background: white;
+        display: block;
+        content: '';
+        cursor: pointer;
+      }
+      #nav-open span:before {
+        bottom: -8px;
+      }
+      #nav-open span:after {
+        bottom: -16px;
+      }
+      
+      /*閉じる用の薄黒カバー*/
+      #nav-close {
+        display: none;/*はじめは隠しておく*/
+        position: fixed;
+        z-index: 99;
+        top: 0;/*全体に広がるように*/
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0;
+        transition: .3s ease-in-out;
+      }
+      
+      /*中身*/
+      #nav-content {
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;/*最前面に*/
+        width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+        max-width: 300px;/*最大幅（調整してください）*/
+        height: 100%;
+        background: #fff;/*背景色*/
+        transition: .3s ease-in-out;/*滑らかに表示*/
+        -webkit-transform: translateX(-105%);
+        transform: translateX(-105%);/*左に隠しておく*/
+      }
+      
+      /*チェックが入ったらもろもろ表示*/
+      #nav-input:checked ~ #nav-close {
+        display: block;/*カバーを表示*/
+        opacity: .5;
+      }
+      
+      #nav-input:checked ~ #nav-content {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);/*中身を表示（右へスライド）*/
+        box-shadow: 6px 0 25px rgba(0,0,0,.15);
+      }
+
+      .btn-sp {
+        float: right;
+        padding: 15px 30px;
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid white;
+        display: inline-block;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        transition: all 0.3s;
+        background-color: rgb(0, 110, 84);
+        line-height: 35px;
+    }
+
+    .btn-sp:hover {
+        background-color: #38b48b;
+    }
+  
+
+}

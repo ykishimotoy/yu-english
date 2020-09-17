@@ -1,2 +1,2 @@
-# jap-eng-online
-Japan English Online website
+# yu-english
+yu-english website
